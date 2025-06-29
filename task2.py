@@ -53,3 +53,5 @@ ranks_of_nums = get_ranks(nums)
 
 # Вывод
 print("Ранги чисел:", ranks_of_nums)
+
+input("Нажмите Enter для выхода...")
