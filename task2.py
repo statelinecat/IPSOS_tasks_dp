@@ -23,7 +23,7 @@ def get_ranks(numbers):
 
     # Вычисляем ранги
     ranks = [0] * len(numbers)  # создание массива, заполненного нулями, той же длины, что и numbers
-    n = len(sorted_numbers) # длина отсортированного массива
+    n = len(sorted_numbers)
     i = 0
     while i < n:
         current_num = sorted_numbers[i][0]
